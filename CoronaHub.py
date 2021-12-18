@@ -82,7 +82,7 @@ if(show_analysis):
     
     eda_img3= Image.open("different dates.png")
     st.image(eda_img3, caption = "The dates in this are non-uniform [in IST or EST]")
-    eda_image4= Image.open("same data.png")
+    eda_image4= Image.open("same date.png")
     st.image(eda_image4, caption= 'Dates are uniform')
     st.markdown("##### We have successfully converted the dates into a uniform standard time")
     
