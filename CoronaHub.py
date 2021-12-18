@@ -80,7 +80,12 @@ if(show_analysis):
     st.image(eda_img2, caption = "Missing Data Added")
     st.markdown("##### As seen, we have successfully replaced the missing data, and now we can continue with the analysis")
     
-
+    eda_img3= Image.open("different dates.png")
+    st.image(eda_img3, caption = "The dates in this are non-uniform [in IST or EST]")
+    eda_image4= Image.open("same data.png")
+    st.image(eda_image4, caption= 'Dates are uniform')
+    st.markdown("##### We have successfully converted the dates into a uniform standard time")
+    
 
     st.markdown("#### The following analysis is for the vaccine doses administered in Indian States")
     st.markdown("#### The dataset used for the analysis can be found at:")
