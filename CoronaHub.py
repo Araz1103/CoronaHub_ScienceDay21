@@ -48,21 +48,21 @@ if(show_game):
     st.subheader('Shoot Coronavirus Game')
     game_img1 = Image.open("achint game.jpg")
     st.image(game_img1, caption = "Corona Shooter Game")
-    st.markdown("#### This game is made by Achint named ‘Shoot Coronavirus’.The game is developed using Scratch. It's a Block coding app developed by MIT."
-"In this game there is our spaceship coronavirus in the centre of the stage who shoots bullets at our corona warrior spaceship.We can dodge the bullets shooted by the virus by arrow keys and can shoot vaccines at corona to decrease it’s health .In this game different spaceship can also be choosen with diffrent colours.We can also see our score and high scrose.Play this game it will be a great fun! ")
+    st.markdown("#### This game is made by Achint named Shoot Coronavirus. The game is developed using Scratch. It's a Block coding app developed by MIT."
+" In this game there is our spaceship coronavirus in the centre of the stage who shoots bullets at our corona warrior spaceship. We can dodge the bullets shooted by the virus by arrow keys and can shoot vaccines at corona to decrease it’s health. In this game different spaceship can also be choosen with diffrent colours.We can also see our score and high scrose.Play this game it will be a great fun! ")
     st.markdown("https://scratch.mit.edu/projects/474183631/")
 
     st.subheader('Covid Slicer Game')
     game_img1 = Image.open("vinay game.jpg")
     st.image(game_img1, caption = "Corona Slicer Game")
-    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,Ios,Windows,Mac) and it is child friendly and age appropriate.The game is fairly simple-Its objective being to slice fruit and dodge covid particles.People who play this game with a Scratch account can save a high score(Operated through the cloud.")
+    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,Ios,Windows,Mac) and it is child friendly and age appropriate. The game is fairly simple-Its objective being to slice fruit and dodge covid particles. People who play this game with a Scratch account can save a high score(Operated through the cloud.")
     st.markdown("https://scratch.mit.edu/projects/602807352/")
 
     st.subheader("Corona Warrior")
     game_img1 = Image.open("noor game.png")
     st.image(game_img1, caption = "Corona Warrior Game")
-    st.markdown("#### This game is developed by Noor. The game is called Corona Warrior.The game is developed using Scratch. It's a Block coding app developed by MIT."
-"The game is an attempt from my side to spread the message that all of us are warriors and just like this game we will win the fight against Corona. In this game, we have a vaccine, 3 Coronaviruses, and a Robo Warrior. Use arrow keys and save the warrior from coronaviruses and touch the vaccine to increase your health to get your health at 100.")
+    st.markdown("#### This game is developed by Noor. The game is called Corona Warrior. The game is developed using Scratch. It's a Block coding app developed by MIT."
+" The game is an attempt from my side to spread the message that all of us are warriors and just like this game we will win the fight against Corona. In this game, we have a vaccine, 3 Coronaviruses, and a Robo Warrior. Use arrow keys and save the warrior from coronaviruses and touch the vaccine to increase your health to get your health at 100.")
     st.markdown("https://scratch.mit.edu/projects/568251470")
 
 @st.cache(persist=True, allow_output_mutation = True)
