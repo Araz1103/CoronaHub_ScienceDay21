@@ -7,9 +7,7 @@ import matplotlib.pyplot as plt #To help to plot
 from PIL import Image
 
 
-DATA_URL = (
-"Motor_Vehicle_Collisions_-_Crashes.csv"
-)
+
 
 DATA_URL2 = (
     "Updated_Covid_Vaccine.csv"
@@ -72,6 +70,17 @@ def load_data_vaccines():
 
 if(show_analysis):
     st.markdown("#### Data Analysis")
+
+    st.markdown("#### Some Insights while doing the EDA (Exploratory Data Analysis)")
+    eda_img1 = Image.open("eda step.jpg")
+    st.image(eda_img1, caption = "Missing Data")
+    st.markdown("##### Here as we can see, the number of doses administered to males, females and transgender isn’t equal to the total doses administered, perhaps due to some mishap in collecting the data. Therefore, in order to make the data more efficient and continuous we added the data collected later to the one collected before as in the following picture.")
+    
+    eda_img2 = Image.open("new data.png")
+    st.image(eda_img2, caption = "Missing Data Added")
+    st.markdown("##### As seen, we have successfully replaced the missing data, and now we can continue with the analysis")
+    
+
 
     st.markdown("#### The following analysis is for the vaccine doses administered in Indian States")
     st.markdown("#### The dataset used for the analysis can be found at:")
