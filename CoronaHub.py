@@ -55,7 +55,7 @@ if(show_game):
     st.subheader('Covid Slicer Game')
     game_img1 = Image.open("vinay game.jpg")
     st.image(game_img1, caption = "Corona Slicer Game")
-    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,Ios,Windows,Mac) and it is child friendly and age appropriate. The game is fairly simple-Its objective being to slice fruit and dodge covid particles. People who play this game with a Scratch account can save a high score (Operated through the cloud).")
+    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,iOS,Windows,Mac) and it is child friendly and age appropriate. The game is fairly simple-Its objective being to slice fruit and dodge covid particles. People who play this game with a Scratch account can save a high score (Operated through the cloud).")
     st.markdown("https://scratch.mit.edu/projects/602807352/")
 
     st.subheader("Corona Warrior")
