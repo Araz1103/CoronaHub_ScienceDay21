@@ -49,13 +49,13 @@ if(show_game):
     game_img1 = Image.open("achint game.jpg")
     st.image(game_img1, caption = "Corona Shooter Game")
     st.markdown("#### This game is made by Achint named Shoot Coronavirus. The game is developed using Scratch. It's a Block coding app developed by MIT."
-" In this game there is our spaceship coronavirus in the centre of the stage who shoots bullets at our corona warrior spaceship. We can dodge the bullets shooted by the virus by arrow keys and can shoot vaccines at corona to decrease it’s health. In this game different spaceship can also be choosen with diffrent colours.We can also see our score and high scrose.Play this game it will be a great fun! ")
+" In this game there is our spaceship coronavirus in the centre of the stage which shoots bullets at our corona warrior spaceship. We can dodge the bullets shooted by the virus by arrow keys and can shoot vaccines at corona to decrease it’s health. In this game different spaceship can also be choosen with diffrent colours. We can also see our score and high scores. Play this game, you will have a lot of fun! ")
     st.markdown("https://scratch.mit.edu/projects/474183631/")
 
     st.subheader('Covid Slicer Game')
     game_img1 = Image.open("vinay game.jpg")
     st.image(game_img1, caption = "Corona Slicer Game")
-    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,Ios,Windows,Mac) and it is child friendly and age appropriate. The game is fairly simple-Its objective being to slice fruit and dodge covid particles. People who play this game with a Scratch account can save a high score(Operated through the cloud.")
+    st.markdown("#### Covid Slicer is a game made on the Scratch programming platform, by Vinay. It can be played on any device(Android,Ios,Windows,Mac) and it is child friendly and age appropriate. The game is fairly simple-Its objective being to slice fruit and dodge covid particles. People who play this game with a Scratch account can save a high score (Operated through the cloud).")
     st.markdown("https://scratch.mit.edu/projects/602807352/")
 
     st.subheader("Corona Warrior")
