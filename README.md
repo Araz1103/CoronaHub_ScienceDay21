@@ -3,4 +3,5 @@ This is the repository for the Corona Hub made by Junior Programming Students fo
 
 Check out the Hub at:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/araz1103/coronahub_scienceday21/main/CoronaHub.py)
+1. [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/araz1103/coronahub_scienceday21/main/CoronaHub.py)
+2. [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://corona-hub-science-day-21.herokuapp.com/)
